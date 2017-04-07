@@ -9,8 +9,8 @@ app.beaconRegions =
 	{
 		id: 'page-feet',
 		uuid:'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
-		major: 3560,
-		minor: 36810
+		major: 13154,
+		minor: 26625
 	},
 	{
 		id: 'page-shoulders',
@@ -21,8 +21,8 @@ app.beaconRegions =
 	{
 		id: 'page-face',
 		uuid:'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
-		major: 57272,
-		minor: 20467
+		major: 46146,
+		minor: 34612
 	}
 ]
 
