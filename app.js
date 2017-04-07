@@ -140,6 +140,8 @@ app.gotoPage = function(pageId)
 {
 	app.hidePage(app.currentPage)
 	app.showPage(pageId)
+	var audio = new Audio('photos/Scream+1.mp3');
+	audio.play();
 	app.currentPage = pageId
 }
 
