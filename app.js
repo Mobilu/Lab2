@@ -122,7 +122,7 @@ app.didRangeBeaconsInRegion = function(pluginResult)
 		&& app.currentPage == 'page-default')
 	{
 		app.gotoPage(pageId)
-		setTimeout(function(){ app.gotoPage'page-default'); }, 5000);
+		setTimeout(function(){ (app.gotoPage'page-default'); }, 5000);
 		return
 	}
 
