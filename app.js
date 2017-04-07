@@ -122,7 +122,7 @@ app.didRangeBeaconsInRegion = function(pluginResult)
 		&& app.currentPage == 'page-default')
 	{
 		app.gotoPage(pageId)
-		setTimeout(function(){ (app.gotoPage'page-default'); }, 5000);
+		setTimeout(function(){ app.gotoPage('page-default'); }, 10000);
 		return
 	}
 
@@ -140,8 +140,8 @@ app.gotoPage = function(pageId)
 {
 	app.hidePage(app.currentPage)
 	app.showPage(pageId)
-	var audio = new Audio('photos/Scream+1.mp3');
-	audio.play();
+	var audio = new Audio('/photos/Scream+1.mp3')
+	audio.play()
 	app.currentPage = pageId
 }
 
