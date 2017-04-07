@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "title": "Hello World",
+  "description": "The classic first simple app to try out for newbies.",
+  "long-description": "The classic first simple app to try out for newbies.",
+  "tags": [],
+  "libraries": [],
+  "index-file": "index.html",
+  "uuid": "2c09148f-eb1d-42f7-b022-f41175a14687",
+  "icon": "app-icon.png",
+  "cordova-id": "com.evothings.examples.helloworld",
+  "doc-url": "https://evothings.com/2.2/doc/examples/hello-world.html"
+}
